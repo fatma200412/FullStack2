@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+
+        /* border-width: 1px;
+        border-style: solid;
+        border-color: red; */
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Text Formatting</h2>
+    <p style="background-color: aqua">Lorem, ipsum.</p>
+    <span style="background-color: aqua">Lorem, ipsum.</span>
+    <p><small>Lorem, ipsum.</small></p>
+    <p>
+      <i>Lorem, ipsum. </i>
+    </p>
+    <p>
+      <b>Lorem, ipsum.</b>
+    </p>
+    <p>
+      <em>Lorem, ipsum.</em>
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <em>Voluptas, quo?</em>
+    </p>
+    <p>
+      <strong>Lorem, ipsum.</strong>
+    </p>
+    <p>Lorem ipsum <strong>dolor</strong> sit amet.</p>
+    <p><mark style="background-color: aqua">Lorem, ipsum.</mark></p>
+    <p>H<sub>2</sub>O</p>
+    <p>x<sup>2</sup></p>
+    <p><del>Lorem, ipsum.</del></p>
+    <p><ins>Lorem, ipsum.</ins></p>
+    <hr />
+
+    <h2>Tables</h2>
+    <table style="width: 500px">
+      <colgroup>
+        <col span="1" />
+
+        <col span="2" style="background-color: aqua" />
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th style="width: 150px">Name</th>
+          <th style="width: 300px">Surname</th>
+          <th style="width: 400px">Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Fatma</td>
+          <td>Guliyeva</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Time Table</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="6">Hours</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Art</td>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Art</td>
+        </tr>
+        <tr>
+          <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+          <th rowspan="2" colspan="2">Project</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+          <td>Math</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h2>Lists</h2>
+    <hr />
+    <h4>Unordered Lists</h4>
+    <ul style="list-style-type: square">
+      <li>Item 1</li>
+      <ul>
+        <li>itemm 1</li>
+        <li>itemm 2</li>
+      </ul>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <h4>Ordered Lists</h4>
+    <ol start="1" type="A">
+      <li>Item 1</li>
+      <ol>
+        <li>itemm 1</li>
+        <li>itemm 2</li>
+        <li>itemm 3</li>
+      </ol>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <h4>Description Lists</h4>
+    <dl>
+      <dt>Qelem</dt>
+      <dd>-yazi yazmaq ucun esya</dd>
+    </dl>
+
+    <hr />
+
+    <h2>Task Lists</h2>
+
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <ul style="list-style-type: disc">
+        <li>Green Tea</li>
+        <li>Black Tea</li>
+      </ul>
+      <li>Milk</li>
+    </ol>
+  </body>
+</html>
