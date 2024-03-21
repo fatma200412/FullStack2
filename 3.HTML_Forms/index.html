@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets//style/home.css" />
     <title>Document</title>
   </head>
   <body>
@@ -16,6 +17,7 @@
         value=""
         required
         placeholder="enter your name"
+        minlength="3"
       />
       <br /><br />
       <label for="">Age:</label>
@@ -25,6 +27,7 @@
         id=""
         placeholder="enter your age"
         required
+        min="14"
       />
       <br /><br />
       <label for="">Email:</label>
@@ -52,6 +55,46 @@
       ><br /><br />
       <input type="checkbox" name="" id="" /><label for="">Russian</label
       ><br /><br />
+      <label for="">message</label> <br />
+      <textarea
+        name=""
+        id=""
+        cols="20"
+        rows="5"
+        placeholder="enter your commits"
+      ></textarea
+      ><br /><br />
+      <label for="">Date</label>
+      <input type="date" name="" id="" />
+      <br /><br />
+      <input type="datetime-local" name="" id="" required /> <br /><br />
+      <label for="">Color</label>
+      <input type="color" name="" id="" /> <br /><br />
+      <label for="">File </label>
+      <input type="file" name="" id="" /> <br />
+      <br />
+      <label for="">URL</label>
+      <input type="url" name="" id="" /><br /><br />
+      <!-- <input
+        type="image"
+        name=""
+        id=""
+        src="./assets/picture/home/sunset-1373171_1280.jpg"
+      /><br /><br /> -->
+      <input type="month" name="" id="" /><br /><br />
+      <input type="search" name="" id="" /> <br /><br />
+      <!-- <input type="button" name="" id="" />\
+       -->
+
+      <select name="" id="" required>
+        <option value="">SEcin</option>
+        <option value="1">Category 1</option>
+        <option value="2">Category 2</option>
+        <option value="3">Category 3</option>
+        <option value="4">Category 4</option>
+      </select>
+      <input type="submit" name="" id="" /><br /><br />
+      <input type="range" name="" id="" />
       <button type="submit">Submit</button>
       <button type="reset">Reset</button>
     </form>
