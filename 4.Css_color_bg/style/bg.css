@@ -1,0 +1,29 @@
+.box {
+  height: 700px;
+  width: 500px;
+  background-color: red;
+  background-image: url("./../images/emoji-removebg-preview.png");
+  background-image: url("./../images/qarisiq\ rengler.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain;
+  background-position: center; */
+  /* background-position: left bottom;
+   */
+  background-image: url("./../images/selena.jpg");
+  background-size: cover;
+  /* background-position: bottom; */
+}
+
+/* .box2 {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  opacity: 0.8;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    148deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(144, 144, 203, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+} */

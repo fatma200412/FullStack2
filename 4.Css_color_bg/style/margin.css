@@ -1,0 +1,26 @@
+body {
+  border: 20px solid red;
+  /* padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-right: 300px; */
+  padding: 20px 300px 50px 100px;
+  width: 500px;
+  margin: 100px auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* box-un rengi background margin padding */
+.box {
+  /* margin: 0 auto; */
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 10px solid black;
+  /* text-align: center; */
+  /* margin: 20px; */
+  padding: 20px;
+}
