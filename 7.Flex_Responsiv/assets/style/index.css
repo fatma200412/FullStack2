@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  height: 400px;
+  background-color: gray;
+  display: flex;
+  /* flex-direction: column-reverse;
+  flex-direction: column;
+  flex-direction: row-reverse; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* x oxu wzre hereket */
+
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+
+  /* y oxu uzre hereket */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: stretch;
+  align-items: baseline; */
+
+  /* align-content: flex-start; */
+  /* align-content: flex-end;
+  align-content: center; */
+
+  /* gap: row-gap col-gap */
+  /* gap: 10px 20px;
+  row-gap: 60px;
+  column-gap: 30px; */
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  /* order: 5; */
+  /* order: 1; */
+}
+.box2 {
+  /* order: 3; */
+  /* order: -2; */
+}
+.box3 {
+  /* order: 9; */
+  /* order: 1; */
+  align-self: center;
+}
+.box4 {
+  /* order: 1; */
+  /* order: -1; */
+}
+.box5 {
+  /* order: -1; */
+  /* order: 1; */
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .box3 {
+    background-color: aqua;
+  }
+}
