@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(44, 42, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  /* transition: 1s; */
+  transition-duration: 2s;
+  /* transition-delay: 3s; */
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  /* transition: property duration */
+  transition: all 3s 2s ease;
+}
+.box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+}
