@@ -1,0 +1,12 @@
+@mixin flexJustifyAlign($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin box($width: 100px, $height: 100px, $borderRadius: 50%) {
+  width: $width;
+  height: $height;
+  border: 1px solid black;
+  border-radius: $borderRadius;
+  margin-right: 30px;
+}

@@ -1,0 +1,65 @@
+@use "./../abstracts/variables" as *;
+@use "./../abstracts/mixin" as *;
+@use "./../abstracts/extends" as *;
+
+header {
+  border: 1px solid black;
+  width: 80%;
+  margin: $marginAuto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include flexJustifyAlign($justify: space-between);
+  h1 {
+    background-color: red;
+    color: $esasReng;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      padding: 10px;
+    }
+  }
+
+  .btnBox {
+    @extend %btnPadding;
+    padding: 10px;
+    &Item {
+      background-color: yellow;
+      padding: 10px 15px;
+    }
+  }
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  background-color: gray;
+  @include flexJustifyAlign;
+  margin: $marginAuto;
+  .box {
+    @include box;
+  }
+  .box1 {
+    @include box($width: 200px, $height: 200px);
+    background-color: yellow;
+  }
+  .box2 {
+    @include box($borderRadius: 20%);
+    background-color: red;
+  }
+  .box3 {
+    @include box($height: 50px, $borderRadius: 10%);
+    background-color: purple;
+  }
+  .box4 {
+    @include box($width: 250px, $borderRadius: 70%);
+    background-color: blue;
+  }
+  .box5 {
+    @include box($width: 300px, $height: 250px, $borderRadius: 10px);
+    background-color: orange;
+  }
+}
