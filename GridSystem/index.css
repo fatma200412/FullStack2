@@ -1,0 +1,28 @@
+.container {
+  width: 1200px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: calc(100% / 12 * 1);
+}
+.col-2 {
+  /* 12/2=6  12/6=2 */
+  /* 100%
+      
+      */
+  width: calc(100% / 12 * 2);
+  width: calc(100% / 6);
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+  width: calc(100% / 4);
+}
+
+@media only screen and (max-width: 1023px) {
+  .col-lg-1 {
+    width: calc(100% / 12 * 1);
+  }
+}
