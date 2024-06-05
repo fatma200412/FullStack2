@@ -1,13 +1,4 @@
-let api = [
-  {
-    id: 1,
-    todo: "lesson",
-  },
-  {
-    id: 2,
-    todo: "gym",
-  },
-];
+let api = [];
 
 const addTodo = document.querySelector(".addTodo");
 const addTodoInp = document.querySelector(".addTodoInp");
@@ -23,7 +14,7 @@ allDelBtn.addEventListener("click", function () {
 
 addTodo.addEventListener("submit", (e) => {
   e.preventDefault();
-  //   console.log(addTodoInp.value);
+  // console.log(addTodoInp.value);
   //   console.log(api);
   let obj = {
     id: api.length + 1,
