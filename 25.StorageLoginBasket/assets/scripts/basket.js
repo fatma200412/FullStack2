@@ -1,5 +1,5 @@
 let productsBox = document.querySelector(".products");
-
+let removeAll = document.querySelector(".removeAll");
 fetch("http://localhost:3000/products")
   .then((res) => res.json())
   .then((data) => {
@@ -27,6 +27,10 @@ fetch("http://localhost:3000/products")
              </div>
             </div>
                  `;
+
+          removeAll.addEventListener("click", function () {
+            console.log("first");
+          });
         }
       });
     });
