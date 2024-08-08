@@ -1,0 +1,22 @@
+.swiper {
+  width: 85%;
+  height: 600px;
+}
+.slide1 {
+  background: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2 {
+  background: url("https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3 {
+  background: url("https://img.freepik.com/free-photo/snowy-mountain-peak-starry-galaxy-majesty-generative-ai_188544-9650.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
