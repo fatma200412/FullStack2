@@ -18,7 +18,6 @@ function Mount() {
 
   useEffect(() => {
     axios("https://northwind.vercel.app/api/products/").then((res) => {
-      console.log(res.data);
       setData(res.data);
     });
   }, []);
