@@ -7,7 +7,16 @@ import Basket from "./page/basket";
 import Favorites from "./page/favorites";
 import Login from "./page/login";
 import Register from "./page/register";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGauge,
+  faArrowTrendUp,
+  faMoneyBill,
+  faBox,
+  faEye,
+  faTicket,
+  faHeart,
+} from "@fortawesome/free-solid-svg-icons";
 function App() {
   const [basket, setBasket] = useState([]);
   const [favorites, setFavorites] = useState([]);
@@ -69,6 +78,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+
+      <FontAwesomeIcon icon={faHeart} />
     </>
   );
 }
