@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllProducts } from "../../redux/slices/productsSlices";
-// import CircularProgress from "@mui/material/CircularProgress";
-// import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import Box from "@mui/material/Box";
 // import Card from "@mui/material/Card";
 // import CardActions from "@mui/material/CardActions";
 // import CardContent from "@mui/material/CardContent";
@@ -46,9 +46,9 @@ function Products() {
       {loading && (
         <>
           {/* <h1>yuklenir</h1> */}
-          {/* <Box sx={{ display: "flex" }}>
+          <Box sx={{ display: "flex" }}>
             <CircularProgress />
-          </Box> */}
+          </Box>
           <Row>
             {arr.map((elem, i) => {
               return (
